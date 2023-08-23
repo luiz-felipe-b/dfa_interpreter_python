@@ -1,0 +1,28 @@
+{
+    "estados": ["q0","q1"],
+    "sigma": ["a","b"],
+    "delta": [
+        {
+        "estado_atual": "q0",
+        "simbolo": "a",
+        "proximo_estado": "q0"
+        },
+        {
+        "estado_atual": "q0",
+        "simbolo": "b",
+        "proximo_estado": "q1"
+        },
+        {
+        "estado_atual": "q1",
+        "simbolo": "a",
+        "proximo_estado": "q1"
+        },
+        {
+        "estado_atual": "q1",
+        "simbolo": "b",
+        "proximo_estado": "q0"
+        }
+    ],
+    "estado_inicial": "q0",
+    "estados_finais": ["q0"]
+    }
