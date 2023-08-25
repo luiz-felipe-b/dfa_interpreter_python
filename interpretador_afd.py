@@ -7,7 +7,7 @@ class automato():
         self.sigma = sigma
         self.delta = delta
         self.estado_inicial = estado_inicial
-        self.estados_finais = estados_finais[0]
+        self.estados_finais = estados_finais
         self.aceita = False
 
     def demonstrar_trans(self, simbolo, estado_atual, proximo_estado):
