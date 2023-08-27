@@ -1,0 +1,38 @@
+{
+    "estados": ["q1", "q2", "q3"],
+    "sigma": ["0","1"],
+    "delta": [
+        {
+        "estado_atual": "q1",
+        "simbolo": "0",
+        "proximo_estado": "q1"
+        },
+        {
+        "estado_atual": "q1",
+        "simbolo": "1",
+        "proximo_estado": "q2"
+        },
+        {
+        "estado_atual": "q2",
+        "simbolo": "1",
+        "proximo_estado": "q2"
+        },
+        {
+        "estado_atual": "q2",
+        "simbolo": "0",
+        "proximo_estado": "q3"
+        },
+        {
+        "estado_atual": "q3",
+        "simbolo": "0",
+        "proximo_estado": "q2"
+        },
+        {
+        "estado_atual": "q3",
+        "simbolo": "1",
+        "proximo_estado": "q2"
+        }
+    ],
+    "estado_inicial": "q1",
+    "estados_finais": ["q2"]
+    }
